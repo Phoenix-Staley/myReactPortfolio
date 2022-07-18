@@ -1,12 +1,13 @@
 import React from "react";
 import selfie from "../../assets/images/sunsetBackgroundSquare.jpg";
+import logo from "../../assets/images/logo.png";
 
 export default function Home() {
   return (
     <div>
-      <div class="hero" alt="The word developer on a dark background surrounded by yellow angle brackets">
+      <div className="hero" alt="The word developer on a dark background surrounded by yellow angle brackets">
         <img src={selfie} alt="Phoenix Staley in a white cardigan, wearing square glasses, with the sunset in the background" class="pineapple-shirt" />
-        <h2 className="hero-subtitle">Keeping Current</h2>
+        <img className="aboutLogo" src={logo}/>
       </div>
 
       <main class="flex-container main-section" id="about-me">

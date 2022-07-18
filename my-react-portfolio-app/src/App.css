@@ -83,7 +83,7 @@ object {
   height: 400px;
   width: 100%;
   margin-top: 5%;
-  background-image: url(Images/Developer_Tag.jpg);
+  background-image: url(./assets/images/Developer_Tag.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -91,10 +91,9 @@ object {
   justify-content: space-around;
 }
 
-.hero-subtitle {
-  background-color: var(--blue);
-  font-size: xx-large;
-  padding: 5px;
+.aboutLogo {
+  height: 192px;
+  width: 192px;
 }
 
 .flex-container {
@@ -287,9 +286,9 @@ a:first-child .project-title {
       width: 150px;
   }
 
-  .hero-subtitle {
-      font-size: x-large;
-      margin-right: 5%;
+  .aboutLogo {
+      height: 192px;
+      width: 192px;
   }
 
   .main-section .content p {
@@ -332,16 +331,16 @@ a:first-child .project-title {
       justify-content: space-between;
   }
 
+  .aboutLogo {
+    height: 128px;
+    width: 128px;
+  }
+
   .pineapple-shirt {
       height: 125px;
       width: 125px;
       margin: 0;
       margin-left: 5%;
-  }
-
-  .hero-subtitle {
-      font-size: medium;
-      margin-right: 5%;
   }
 
   .main-section .content p {
