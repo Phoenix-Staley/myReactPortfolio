@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <div className="hero" alt="The word developer on a dark background surrounded by yellow angle brackets">
         <img src={selfie} alt="Phoenix Staley in a white cardigan, wearing square glasses, with the sunset in the background" class="pineapple-shirt" />
-        <img className="aboutLogo" src={logo}/>
+        <img className="about-logo" src={logo}/>
       </div>
 
       <main class="flex-container main-section" id="about-me">
