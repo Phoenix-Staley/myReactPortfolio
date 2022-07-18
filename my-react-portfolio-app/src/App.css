@@ -96,6 +96,11 @@ object {
   width: 192px;
 }
 
+.footer-logo {
+  height: 64px;
+  width: 64px;
+}
+
 .flex-container {
   display: flex;
 }
@@ -286,7 +291,7 @@ a:first-child .project-title {
       width: 150px;
   }
 
-  .aboutLogo {
+  .about-logo {
       height: 192px;
       width: 192px;
   }
@@ -331,7 +336,7 @@ a:first-child .project-title {
       justify-content: space-between;
   }
 
-  .aboutLogo {
+  .about-logo {
     height: 128px;
     width: 128px;
   }
