@@ -11,19 +11,10 @@ function NavTabs({ currentPage, handlePageChange }) {
             <ul className="nav nav-tabs">
                 <li className="nav-item">
                     <a
-                    href="#home"
-                    onClick={() => handlePageChange('Home')}
-                    // This ternary operator applies the "active" class only when the current page is Home
-                    // The ternary operators for the following <li> elements do the same thing
-                    className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-                    >
-                    Home
-                    </a>
-                </li>
-                <li className="nav-item">
-                    <a
                     href="#about"
                     onClick={() => handlePageChange('About')}
+                    // This ternary operator applies the "active" class only when the current page is Home
+                    // The ternary operators for the following <li> elements do the same thing
                     className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                     >
                     About
