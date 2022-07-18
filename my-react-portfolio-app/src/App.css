@@ -7,6 +7,378 @@
   pointer-events: none;
 }
 
+:root {
+  /* --about-me-color: rgb(68, 0, 0); */
+  --projects-color: rgb(10, 5, 9);
+  --contact-me-color: rgb(12, 12, 12);
+  --blue: rgb(17, 30, 48);
+}
+
+/* This applies the default font, text color, and margin size */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  margin: 0;
+  line-height: 1.5;
+}
+
+body {
+  height: 90vh;
+  background-color: #121212;
+}
+
+object {
+  height: 89vh;
+  width: 183vh;
+  margin-top: 10vh;
+}
+
+.header {
+  text-align: center;
+  display: inline-block;
+  color: whitesmoke;
+  margin-left: 15px;
+  font-size: xx-large;
+}
+
+/* This hides a shorter h2 that replaces the main h2 "Phoenix Staley - Web developer" on small devices */
+.short-header {
+  display: none;
+}
+
+.static-header {
+  width: 100%;
+  height: 9.1%;
+  background-color: var(--blue);
+  text-align: right;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: x-large;
+}
+
+.navigation li {
+  display: inline;
+  margin: 0 9px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: whitesmoke;
+  border-bottom: lightblue solid 2px;
+}
+
+/* This formats the section with the <DEVELOPER> image */
+.hero {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  margin-top: 5%;
+  background-image: url(Images/Developer_Tag.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero-subtitle {
+  background-color: var(--blue);
+  font-size: xx-large;
+  padding: 5px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.sidebar {
+  position: relative;
+  width: 33%;
+  justify-content: center;
+  align-items: flex-start;
+  border-right: lightblue solid 5px;
+  border-radius: 2px;
+  margin-right: 2%;
+}
+
+.main-section {
+  padding-bottom: 5%;
+  justify-content: center;
+}
+
+.projects {
+  width: 85%;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+  align-content: space-around;
+  gap: 10px 15px;
+  flex-direction: row;
+}
+
+.projects.flex-container {
+  justify-content: center;
+}
+
+.carousel-inner > .carousel-item > img {
+  width: 75vw;
+  height: 34vh;
+}
+
+.project-image {
+  border: var(--blue) solid 4px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  display: inline-block;
+  transition: ease-out 200ms;
+}
+
+/* This formats the project links */
+.projects a {
+  max-width: 100%;
+  position: relative;
+  flex-grow: 1;
+  transition: ease 300ms;
+}
+
+.projects a:hover {
+  transform: scale(1.03);
+}
+
+/* This formats the headers attached to the project links */
+.project-title {
+  position: absolute;
+  bottom: 10%;
+  left: 4px;
+  z-index: 3;
+  font-size: large;
+  background-color: var(--blue);
+  padding: 5px 5%;
+}
+
+/* This formats the main project slightly larger */
+a:first-child .project-title {
+  font-size: xx-large;
+  max-width: 100%;
+}
+
+.pineapple-shirt {
+  width: 50%;
+  height: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  margin: 100px;
+}
+
+/* This formats the divs containing the content of each main section */
+.content {
+  width: 66%;
+}
+
+.content p {
+  width: 84%;
+  font-size: large;
+}
+
+/* This formats the headings such as "About me", "Projects", etc. */
+.section-heading {
+  font-size: x-large;
+  padding: 1% 1%;
+  grid-area: heading;
+  text-align: center;
+}
+
+.mainProject {grid-area: main;}
+.project1 {grid-area: project1;}
+.project2 {grid-area: project2;}
+.project3 {grid-area: project3;}
+
+.project1 img, .project2 img, .project3 img {
+  height: 25vh;
+  width: 20vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+      "heading heading heading"
+      "main main main"
+      "main main main"
+      "project1 project2 project3";
+  gap: 15px;
+}
+
+#project-section {
+  /* background-color: rgb(39, 0, 35); */
+  background: linear-gradient(0deg, var(--contact-me-color) 0%, var(--projects-color) 5%, var(--projects-color) 95%, var(--contact-me-color));
+  padding: 3% 0;
+}
+
+#about-me {
+  background-color: var(--contact-me-color);
+  padding-top: 2%;
+}
+
+#contact-me {
+  background-color: var(--contact-me-color);
+  padding-bottom: 2%;
+}
+
+#contact-me .content {
+  width: 55%;
+  justify-content: space-evenly;
+}
+
+#contact-me .content h3 {
+  text-align: center;
+  padding: 1%;
+  font-size: larger;
+}
+
+#contact-me .content a {
+  text-decoration: none;
+  color:darkturquoise;
+  margin: 0 40%;
+  border-bottom: lightblue dotted 2px;
+}
+
+#relative-footer {
+  position: relative;
+  background-color: var(--blue);
+  text-align: center;
+}
+
+#relative-footer h3 {
+  padding: 0.5%;
+}
+
+/* These format for medium and small sized screens. It mostly making everything smaller and closer together */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header, .section-heading {
+      font-size: x-large;
+  }
+
+  .navigation {
+      font-size: large;
+  }
+
+  .navigation li {
+      margin: 0 5px;
+  }
+
+  .hero {
+      justify-content: space-between;
+  }
+
+  .pineapple-shirt {
+      height: 150px;
+      width: 150px;
+  }
+
+  .hero-subtitle {
+      font-size: x-large;
+      margin-right: 5%;
+  }
+
+  .main-section .content p {
+      font-size: medium;
+  }
+
+  .project-title {
+      font-size: small;
+      bottom: 15%;
+  }
+
+  .static-header {
+      height: 5%;
+  }
+
+  #contact-me {
+      font-size: small;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+      font-size: large;
+  }
+  
+  .section-heading {
+      font-size: medium;
+  }
+
+  .navigation {
+      font-size: medium;
+      margin-right: 10px;
+  }
+
+  .navigation li {
+      margin: 0 5px;
+  }
+
+  .hero {
+      justify-content: space-between;
+  }
+
+  .pineapple-shirt {
+      height: 125px;
+      width: 125px;
+      margin: 0;
+      margin-left: 5%;
+  }
+
+  .hero-subtitle {
+      font-size: medium;
+      margin-right: 5%;
+  }
+
+  .main-section .content p {
+      font-size: small;
+  }
+
+  .project-title {
+      font-size: small;
+      bottom: 20%;
+  }
+  
+  a:first-child .project-title {
+      font-size: x-large;
+  }
+
+  .static-header {
+      height: 5%;
+  }
+
+  .main-header {
+      display: none;
+  }
+
+  .short-header {
+      display: inline-block;
+  }
+
+  .project1 img, .project2 img, .project3 img {
+      height: 10vh;
+      width: 20vw;
+  }
+
+  #contact-me {
+      font-size: x-small;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
