@@ -101,6 +101,19 @@ object {
   width: 64px;
 }
 
+.icon-link {
+  min-height: 5vh;
+  min-width: 5vw;
+  padding-top: 1vh;
+  margin: 1vw;
+  padding-bottom: 1vh;
+  transition: ease-in-out 200ms;
+}
+
+.icon-link:hover {
+  transform: scale(1.1);
+}
+
 .flex-container {
   display: flex;
 }
