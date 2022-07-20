@@ -1,5 +1,37 @@
 import React, { useState } from "react";
 
+const styles = {
+  inputArea: {
+    width: "100%",
+    padding: "12px",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+    boxSizing: "border-box",
+    marginTop: "6px",
+    marginBottom: "16px",
+    resize: "vertical"
+  },
+  
+  submit: {
+    backgroundColor: "#04AA6D",
+    color: "white",
+    padding: "12px 20px",
+    border: "none",
+    borderRadius: "4px",
+    cursor: "pointer"
+  },
+  
+  submitHover: {
+    backgroundColor: "#45a049"
+  },
+  
+  container: {
+    borderRadius: "5px",
+    backgroundColor: "#121212",
+    padding: "20px"
+  }
+}
+
 export default function Contact() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState(null);
@@ -20,24 +52,24 @@ export default function Contact() {
 
   return (
     <div>
-      <h3>Contact Me</h3>
-      <div className="container">
+      <div style={styles.container}>
+        <h3>Contact Me</h3>
         <form action="/action_page.php">
           <label htmlFor="fname">First Name</label>
-          <input type="text" id="fname" placeholder="Your name.." />
+          <input style={styles.inputArea} type="text" id="fname" placeholder="Your first name.." />
 
           <label htmlFor="lname">Last Name</label>
-          <input type="text" id="lname" placeholder="Your last name.." />
+          <input style={styles.inputArea} type="text" id="lname" placeholder="Your last name.." />
 
           <label htmlFor="email">Email</label>
-          <input type="text" id="email" value={message} onChange={handleChange} placeholder="example@email.com" />
+          <input style={styles.inputArea} type="text" id="email" value={message} onChange={handleChange} placeholder="example@email.com" />
 
           <label htmlFor="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style={{height: "200px"}}></textarea>
+          <textarea id="subject" name="subject" placeholder="Write something.." style={styles.inputArea}></textarea>
 
           <div>{error ? <h3 style={{color: "red"}}>{error}</h3> : <h3></h3>}</div>
 
-          <input type="submit" value="Submit" />
+          <input style={styles.submit} type="submit" value="Submit" />
         </form>
       </div>
     </div>
