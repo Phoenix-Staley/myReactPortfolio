@@ -13,7 +13,7 @@ const styles = {
   },
   
   submit: {
-    backgroundColor: "#04AA6D",
+    backgroundColor: "rgb(17, 30, 48)",
     color: "white",
     padding: "12px 20px",
     border: "none",
@@ -22,7 +22,12 @@ const styles = {
   },
   
   submitHover: {
-    backgroundColor: "#45a049"
+    color: "white",
+    padding: "12px 20px",
+    border: "none",
+    borderRadius: "4px",
+    cursor: "pointer",
+    backgroundColor: "rgb(27, 40, 58)"
   },
   
   container: {
@@ -35,6 +40,7 @@ const styles = {
 export default function Contact() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState(null);
+  const [isHovering, setIsHovering] = useState(false);
 
   function isValidEmail(email) {
     return /^.+@.+\..+/i.test(email);
@@ -48,6 +54,14 @@ export default function Contact() {
     }
 
     setMessage(event.target.value);
+  };
+
+  const handleMouseEnter = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovering(false);
   };
 
   return (
@@ -69,7 +83,13 @@ export default function Contact() {
 
           <div>{error ? <h3 style={{color: "red"}}>{error}</h3> : <h3></h3>}</div>
 
-          <input style={styles.submit} type="submit" value="Submit" />
+          <input
+            style={isHovering ? styles.submitHover : styles.submit}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            type="submit"
+            value="Submit"
+          />
         </form>
       </div>
     </div>
