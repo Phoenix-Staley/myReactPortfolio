@@ -33,6 +33,10 @@ object {
   margin-top: 10vh;
 }
 
+.main-page {
+  padding-top: 5%;
+}
+
 .header {
   text-align: center;
   display: inline-block;
@@ -82,7 +86,6 @@ object {
   position: relative;
   height: 400px;
   width: 100%;
-  margin-top: 5%;
   background-image: url(./assets/images/Developer_Tag.jpg);
   background-size: cover;
   background-position: center;
@@ -97,6 +100,8 @@ object {
 }
 
 .footer-logo {
+  display: inline;
+  padding: 0.5%;
   height: 64px;
   width: 64px;
 }
@@ -272,13 +277,20 @@ a:first-child .project-title {
 }
 
 #relative-footer {
-  position: relative;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  padding-top: 1%;
   background-color: var(--blue);
   text-align: center;
 }
 
 #relative-footer h3 {
   padding: 0.5%;
+  display: inline;
 }
 
 /* These format for medium and small sized screens. It mostly making everything smaller and closer together */
