@@ -13,7 +13,7 @@ const styles = {
   },
   
   submit: {
-    backgroundColor: "rgb(17, 30, 48)",
+    backgroundColor: "rgb(23, 35, 53)",
     color: "white",
     padding: "12px 20px",
     border: "none",
