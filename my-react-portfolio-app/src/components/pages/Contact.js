@@ -10,7 +10,7 @@ export default function Contact() {
 
   const handleChange = event => {
     if (!isValidEmail(event.target.value)) {
-      setError("Please enter a valid email.");
+      setError("Please enter a valid email");
     } else {
       setError(null);
     }
@@ -35,7 +35,7 @@ export default function Contact() {
           <label htmlFor="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style={{height: "200px"}}></textarea>
 
-          <div>{error ? <h3>{error}</h3> : <h3></h3>}</div>
+          <div>{error ? <h3 style={{color: "red"}}>{error}</h3> : <h3></h3>}</div>
 
           <input type="submit" value="Submit" />
         </form>
