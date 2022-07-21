@@ -41,6 +41,7 @@ const styles = {
 export default function Contact() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState(null);
+  const [submitMessage, setSubmitMessage] = useState("");
   const [isHovering, setIsHovering] = useState(false);
 
   function isValidEmail(email) {
@@ -56,6 +57,16 @@ export default function Contact() {
 
     setMessage(event.target.value);
   };
+
+  const handleSubmit = event => {
+    event.preventDefault();
+    
+    setSubmitMessage("Your message has been sent!");
+
+    setTimeout(() => {
+      setSubmitMessage("");
+    }, 2000);
+  }
 
   const handleMouseEnter = () => {
     setIsHovering(true);
@@ -82,12 +93,18 @@ export default function Contact() {
           <label htmlFor="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style={styles.inputArea}></textarea>
 
-          <div>{error ? <h3 style={{color: "red"}}>{error}</h3> : <h3></h3>}</div>
+          <div>{
+            error ? (
+              <h3 style={{color: "red"}}>{error}</h3>
+            ) : submitMessage ? (
+              <h3 style={{color: "green"}}>{submitMessage}</h3>
+            ) : <h3></h3>}</div>
 
           <input
             style={isHovering ? styles.submitHover : styles.submit}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            onClick={handleSubmit}
             type="submit"
             value="Submit"
           />
