@@ -347,6 +347,10 @@ a:first-child .project-title {
   #contact-me {
       font-size: small;
   }
+
+  #about-me {
+    padding-bottom: 25vh;
+  }
 }
 
 @media (max-width: 767px) {
@@ -415,6 +419,10 @@ a:first-child .project-title {
 
   #contact-me {
       font-size: x-small;
+  }
+
+  #about-me {
+    padding-bottom: 25vh;
   }
 }
 
