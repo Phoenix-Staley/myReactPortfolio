@@ -1,6 +1,7 @@
 {
   "name": "my-react-portfolio-app",
   "version": "0.1.0",
+  "homepage": "https://phoenix-staley.github.io/myReactPortfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
