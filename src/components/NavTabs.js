@@ -1,10 +1,26 @@
 import React from "react";
 import resume from "../assets/phoenixDevResume.pdf";
 
+const styles = {
+    staticHeader: {
+        width: "100%",
+        height: "9.1%",
+        backgroundColor: "var(--blue)",
+        textAlign: "right",
+        position: "fixed",
+        top: "0",
+        left: "0",
+        zIndex: "3",
+        justifyContent: "space-between",
+        display: "flex",
+        alignItems: "center"
+    }
+}
+
 // This function takes in an destructures the current page state and the function for handling a page change
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <header className="static-header">
+    <header style={styles.staticHeader}>
         <h2 className="header main-header">Phoenix Staley - Web Developer</h2>
         <h2 className="header short-header">Phoenix Staley - Developer</h2>
         <nav className="text-right navigation">
