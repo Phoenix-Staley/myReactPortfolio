@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const styles = {
   inputArea: {
+    color: "black",
     width: "100%",
     padding: "12px",
     border: "1px solid #ccc",
