@@ -6,7 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("About");
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
@@ -22,7 +22,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="main-page">
       {/* This passes the currentPage property and the handlePageChange function to the NavTabs component */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* This calls the renderPage function that loads the appropriate component */}
