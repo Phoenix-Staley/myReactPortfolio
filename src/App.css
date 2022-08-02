@@ -369,6 +369,10 @@ a:first-child .project-title {
       justify-content: space-between;
   }
 
+  .hero-subtitle {
+      font-size: large;
+  }
+
   .about-logo {
       height: 128px;
       width: 128px;
@@ -385,13 +389,18 @@ a:first-child .project-title {
       font-size: small;
   }
 
+  .projects {
+    width: 100%;
+  }
+
   .project-title {
       font-size: small;
       bottom: 20%;
   }
 
   .project1 img, .project2 img, .project3 img {
-      height: 20vh;
+      height: 30vh;
+      width: 30vw;
   }
   
   a:first-child .project-title {

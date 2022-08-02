@@ -4,8 +4,8 @@ import selfie from "../assets/images/sunsetBackgroundSquare.jpg";
 const styles = {
   heroSubtitle: {
     "backgroundColor": "rgb(17, 30, 48)",
-    "fontSize": "xx-large",
     "padding": "5px",
+    "marginRight": "2vh",
     "borderRadius": "15%",
     "borderStyle": "outset",
     "borderColor": "rgb(12, 25, 43)"
