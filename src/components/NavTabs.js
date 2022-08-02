@@ -55,7 +55,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     </a>
                 </li>
                 <li>
-                    <a href={resume} download>Resume</a>
+                    <a href={resume}>Resume</a>
                 </li>
             </ul>
         </nav>
