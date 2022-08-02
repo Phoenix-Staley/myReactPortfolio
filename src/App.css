@@ -280,6 +280,7 @@ a:first-child .project-title {
   padding-top: 0.5%;
   background-color: var(--blue);
   text-align: center;
+  max-height: 8%;
 }
 
 #relative-footer h3 {
