@@ -289,6 +289,10 @@ a:first-child .project-title {
   display: inline;
 }
 
+#navbar {
+  height: 10%;
+}
+
 /* These format for medium and small sized screens. It mostly making everything smaller and closer together */
 @media (min-width: 768px) and (max-width: 1024px) {
   .header, .section-heading {
@@ -341,7 +345,7 @@ a:first-child .project-title {
 
 @media (max-width: 767px) {
   .header {
-      font-size: large;
+      font-size: larger;
   }
   
   .section-heading {
@@ -349,7 +353,7 @@ a:first-child .project-title {
   }
 
   .navigation {
-      font-size: medium;
+      font-size: large;
       margin-right: 10px;
   }
 
@@ -409,6 +413,15 @@ a:first-child .project-title {
 
   #about-me {
     padding-bottom: 25vh;
+  }
+
+  #relative-footer {
+    max-height: 16%;
+    font-size: larger;
+  }
+
+  #navbar {
+    height: 15%;
   }
 }
 

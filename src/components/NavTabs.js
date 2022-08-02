@@ -4,7 +4,6 @@ import resume from "../assets/phoenixDevResume.pdf";
 const styles = {
     staticHeader: {
         width: "100%",
-        height: "9.1%",
         backgroundColor: "var(--blue)",
         textAlign: "right",
         position: "fixed",
@@ -20,9 +19,9 @@ const styles = {
 // This function takes in an destructures the current page state and the function for handling a page change
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <header style={styles.staticHeader}>
+    <header id="navbar" style={styles.staticHeader}>
         <h2 className="header main-header">Phoenix Staley - Web Developer</h2>
-        <h2 className="header short-header">Phoenix Staley - Developer</h2>
+        <h2 className="header short-header">Phoenix Staley</h2>
         <nav className="text-right navigation">
             <ul className="nav nav-tabs">
                 <li className="nav-item">
