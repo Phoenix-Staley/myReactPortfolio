@@ -1,8 +1,8 @@
 import React from "react";
-import knickKnacks from "../../assets/images/knickKnacksScreenshot.png";
-import weatherApp from "../../assets/images/weatherAppScreenshot.png";
-import timelessTechBlog from "../../assets/images/timelessTechBlogScreenshot.png";
-import bitcoinTracker from "../../assets/images/bitcoinTrackerScreenshot.png";
+import knickKnacks from "../assets/images/knickKnacksScreenshot.png";
+import weatherApp from "../assets/images/weatherAppScreenshot.png";
+import timelessTechBlog from "../assets/images/timelessTechBlogScreenshot.png";
+import bitcoinTracker from "../assets/images/bitcoinTrackerScreenshot.png";
 
 export default function Home() {
   return (

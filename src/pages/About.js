@@ -1,7 +1,5 @@
 import React from "react";
-import selfie from "../../assets/images/sunsetBackgroundSquare.jpg";
-
-const darkBlue = "rgb(17, 30, 48)"
+import selfie from "../assets/images/sunsetBackgroundSquare.jpg";
 
 const styles = {
   heroSubtitle: {
