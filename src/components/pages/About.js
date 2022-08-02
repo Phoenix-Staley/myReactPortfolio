@@ -1,13 +1,25 @@
 import React from "react";
 import selfie from "../../assets/images/sunsetBackgroundSquare.jpg";
-import logo from "../../assets/images/logo.png";
+
+const darkBlue = "rgb(17, 30, 48)"
+
+const styles = {
+  heroSubtitle: {
+    "backgroundColor": "rgb(17, 30, 48)",
+    "fontSize": "xx-large",
+    "padding": "5px",
+    "borderRadius": "15%",
+    "borderStyle": "outset",
+    "borderColor": "rgb(12, 25, 43)"
+  }
+}
 
 export default function Home() {
   return (
     <div>
       <div className="hero" alt="The word developer on a dark background surrounded by yellow angle brackets">
         <img src={selfie} alt="Phoenix Staley in a white cardigan, wearing square glasses, with the sunset in the background" class="pineapple-shirt" />
-        <img className="about-logo" src={logo}/>
+        <h2 class="hero-subtitle" style={styles.heroSubtitle}>Keeping Current</h2>
       </div>
 
       <main class="flex-container main-section" id="about-me">
