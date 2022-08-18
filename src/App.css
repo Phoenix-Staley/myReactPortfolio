@@ -12,6 +12,7 @@
   --projects-color: rgb(10, 5, 9);
   --contact-me-color: rgb(12, 12, 12);
   --blue: rgb(17, 30, 48);
+  --transparentBlue: rgb(17, 30, 48, 0.5);
 }
 
 /* This applies the default font, text color, and margin size */
@@ -223,18 +224,19 @@ a:first-child .project-title {
 .project2 {grid-area: project2;}
 .project3 {grid-area: project3;}
 
-.project1 img, .project2 img, .project3 img {
-  height: 25vh;
-  width: 20vw;
+.project1 img, .project2 img, .project3 img, .project4 img {
+  height: 50vh;
+  width: 40vw;
 }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-      "heading heading heading"
-      "main main main"
-      "main main main"
-      "project1 project2 project3";
+      "heading heading"
+      "main main"
+      "main main"
+      "project1 project2"
+      "project3 project4";
   gap: 15px;
 }
 
@@ -278,7 +280,7 @@ a:first-child .project-title {
   bottom: 0;
   width: 100%;
   padding-top: 0.5%;
-  background-color: var(--blue);
+  background-color: var(--transparentBlue);
   text-align: center;
   max-height: 8%;
 }
