@@ -12,7 +12,6 @@
   --projects-color: rgb(10, 5, 9);
   --contact-me-color: rgb(12, 12, 12);
   --blue: rgb(17, 30, 48);
-  --transparentBlue: rgb(17, 30, 48, 0.5);
 }
 
 /* This applies the default font, text color, and margin size */
@@ -280,7 +279,7 @@ a:first-child .project-title {
   bottom: 0;
   width: 100%;
   padding-top: 0.5%;
-  background-color: var(--transparentBlue);
+  background-color: var(--blue);
   text-align: center;
   max-height: 8%;
 }
