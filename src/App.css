@@ -403,9 +403,9 @@ a:first-child .project-title {
       bottom: 20%;
   }
 
-  .project1 img, .project2 img, .project3 img {
-      height: 30vh;
-      width: 30vw;
+  .project1 img, .project2 img, .project3 img, .project4 img {
+      height: 45vh;
+      width: 45vw;
   }
   
   a:first-child .project-title {
@@ -422,10 +422,6 @@ a:first-child .project-title {
 
   .short-header {
       display: inline-block;
-  }
-
-  .project1 img, .project2 img, .project3 img {
-      height: 10vh;
   }
 
   #contact-me {
