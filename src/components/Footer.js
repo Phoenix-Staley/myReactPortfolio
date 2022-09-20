@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <footer id="relative-footer">
       <img src={logo} className="footer-logo" />
-      <h3>Developed by Phoenix Staley</h3>
+      <h3 id="developerTag">Developed by Phoenix Staley</h3>
       <div>
         <a href="https://www.github.com/Phoenix-Staley"><FontAwesomeIcon className="icon-link" icon={faGithub} /></a>
         <a href="https://www.linkedin.com/in/phoenix-staley-b17672211/"><FontAwesomeIcon className="icon-link" icon={faLinkedin} /></a>

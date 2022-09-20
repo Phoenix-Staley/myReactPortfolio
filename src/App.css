@@ -448,6 +448,10 @@ a:first-child .project-title {
   #project-section {
       margin-top: 15%;
   }
+
+  #developerTag {
+      display: none;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
