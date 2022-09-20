@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myReactPortfolio/static/css/main.944707bf.css",
-    "main.js": "/myReactPortfolio/static/js/main.a9fdf72c.js",
+    "main.css": "/myReactPortfolio/static/css/main.12f886e2.css",
+    "main.js": "/myReactPortfolio/static/js/main.69472155.js",
     "static/js/787.5e5fe948.chunk.js": "/myReactPortfolio/static/js/787.5e5fe948.chunk.js",
     "static/media/knickKnacksScreenshot.png": "/myReactPortfolio/static/media/knickKnacksScreenshot.6b89494a43341348271b.png",
     "static/media/logo.png": "/myReactPortfolio/static/media/logo.203e97b6712ce53161b0.png",
@@ -13,12 +13,12 @@
     "static/media/myrecipesScreenshot.png": "/myReactPortfolio/static/media/myrecipesScreenshot.9d2e4e879d60ed607be3.png",
     "static/media/phoenixDevResume.pdf": "/myReactPortfolio/static/media/phoenixDevResume.6840232c144a6c703b1c.pdf",
     "index.html": "/myReactPortfolio/index.html",
-    "main.944707bf.css.map": "/myReactPortfolio/static/css/main.944707bf.css.map",
-    "main.a9fdf72c.js.map": "/myReactPortfolio/static/js/main.a9fdf72c.js.map",
+    "main.12f886e2.css.map": "/myReactPortfolio/static/css/main.12f886e2.css.map",
+    "main.69472155.js.map": "/myReactPortfolio/static/js/main.69472155.js.map",
     "787.5e5fe948.chunk.js.map": "/myReactPortfolio/static/js/787.5e5fe948.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.944707bf.css",
-    "static/js/main.a9fdf72c.js"
+    "static/css/main.12f886e2.css",
+    "static/js/main.69472155.js"
   ]
 }
