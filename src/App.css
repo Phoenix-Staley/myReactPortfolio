@@ -450,7 +450,7 @@ a:first-child .project-title {
   }
 
   #developerTag {
-      display: none;
+      display: none !important;
   }
 }
 
