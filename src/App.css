@@ -169,6 +169,10 @@ a {
   transform: scale(1.03);
 }
 
+.github {
+  text-decoration: underline;
+}
+
 .github:hover {
   color: rgb(50, 150, 50);
   text-decoration: underline;
