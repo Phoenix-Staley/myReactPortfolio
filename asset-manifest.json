@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myReactPortfolio/static/css/main.b38df81b.css",
-    "main.js": "/myReactPortfolio/static/js/main.69472155.js",
+    "main.js": "/myReactPortfolio/static/js/main.3699dc2c.js",
     "static/js/787.5e5fe948.chunk.js": "/myReactPortfolio/static/js/787.5e5fe948.chunk.js",
     "static/media/knickKnacksScreenshot.png": "/myReactPortfolio/static/media/knickKnacksScreenshot.6b89494a43341348271b.png",
     "static/media/logo.png": "/myReactPortfolio/static/media/logo.203e97b6712ce53161b0.png",
@@ -11,14 +11,14 @@
     "static/media/weatherAppScreenshot.png": "/myReactPortfolio/static/media/weatherAppScreenshot.0017a6e5daee9d9c4485.png",
     "static/media/bitcoinTrackerScreenshot.png": "/myReactPortfolio/static/media/bitcoinTrackerScreenshot.3822612482e81eceeb44.png",
     "static/media/myrecipesScreenshot.png": "/myReactPortfolio/static/media/myrecipesScreenshot.9d2e4e879d60ed607be3.png",
-    "static/media/phoenixDevResume.pdf": "/myReactPortfolio/static/media/phoenixDevResume.6840232c144a6c703b1c.pdf",
+    "static/media/phoenixDevResume_2022.pdf": "/myReactPortfolio/static/media/phoenixDevResume_2022.66bfb5db0b4cd67a169f.pdf",
     "index.html": "/myReactPortfolio/index.html",
     "main.b38df81b.css.map": "/myReactPortfolio/static/css/main.b38df81b.css.map",
-    "main.69472155.js.map": "/myReactPortfolio/static/js/main.69472155.js.map",
+    "main.3699dc2c.js.map": "/myReactPortfolio/static/js/main.3699dc2c.js.map",
     "787.5e5fe948.chunk.js.map": "/myReactPortfolio/static/js/787.5e5fe948.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b38df81b.css",
-    "static/js/main.69472155.js"
+    "static/js/main.3699dc2c.js"
   ]
 }
