@@ -26,8 +26,9 @@ export default function Home() {
             </aside>
             <div class="content">
                 <p>
-                    Welcome to my website! I'm a nonbinary developer currently enrolled in a full-stack JavaScript bootcamp through the
-                    University of Washington.
+                    Welcome to my website! I'm a full-stack JavaScript developer certified through the University of Washington.
+                    I am currently working towards a Computer Science degree, but am looking for a full time developer position
+                    while I finish my degree on the side.
                     I've been fascinated about computers and the internet since I was a kid. I began programming video games on Roblox in
                     middle school. Ever since then my drive to continue learning and developing programs has never ceased.
                 </p>
