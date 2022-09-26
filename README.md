@@ -9,7 +9,7 @@
 
 - [Technologies](#Technologies)
 
-- [Images](#Examples)
+- [Images](#Images)
 
 - [Credits](#Credits)
 
