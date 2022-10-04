@@ -195,7 +195,7 @@ a:first-child .project-title {
   max-width: 100%;
 }
 
-.pineapple-shirt {
+.selfie {
   width: 50%;
   height: 50%;
   max-width: 200px;
@@ -319,7 +319,7 @@ a:first-child .project-title {
     font-size: xx-large;
   }
 
-  .pineapple-shirt {
+  .selfie {
       height: 150px;
       width: 150px;
   }
@@ -387,11 +387,8 @@ a:first-child .project-title {
       width: 128px;
   }
 
-  .pineapple-shirt {
-      height: 125px;
-      width: 125px;
-      margin: 0;
-      margin-left: 5%;
+  .selfie {
+      display: none;
   }
 
   .main-section .content p {
