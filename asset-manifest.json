@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myReactPortfolio/static/css/main.b38df81b.css",
+    "main.css": "/myReactPortfolio/static/css/main.91d9030c.css",
     "main.js": "/myReactPortfolio/static/js/main.ebcfbf39.js",
     "static/js/787.5e5fe948.chunk.js": "/myReactPortfolio/static/js/787.5e5fe948.chunk.js",
     "static/media/knickKnacksScreenshot.png": "/myReactPortfolio/static/media/knickKnacksScreenshot.6b89494a43341348271b.png",
@@ -13,12 +13,12 @@
     "static/media/myrecipesScreenshot.png": "/myReactPortfolio/static/media/myrecipesScreenshot.9d2e4e879d60ed607be3.png",
     "static/media/phoenixDevResume_2022.pdf": "/myReactPortfolio/static/media/phoenixDevResume_2022.5ed330a089013e445070.pdf",
     "index.html": "/myReactPortfolio/index.html",
-    "main.b38df81b.css.map": "/myReactPortfolio/static/css/main.b38df81b.css.map",
+    "main.91d9030c.css.map": "/myReactPortfolio/static/css/main.91d9030c.css.map",
     "main.ebcfbf39.js.map": "/myReactPortfolio/static/js/main.ebcfbf39.js.map",
     "787.5e5fe948.chunk.js.map": "/myReactPortfolio/static/js/787.5e5fe948.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b38df81b.css",
+    "static/css/main.91d9030c.css",
     "static/js/main.ebcfbf39.js"
   ]
 }
