@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/myReactPortfolio/static/css/main.91d9030c.css",
-    "main.js": "/myReactPortfolio/static/js/main.6baefeac.js",
+    "main.js": "/myReactPortfolio/static/js/main.addf09e7.js",
     "static/js/787.5e5fe948.chunk.js": "/myReactPortfolio/static/js/787.5e5fe948.chunk.js",
     "static/media/knickKnacksScreenshot.png": "/myReactPortfolio/static/media/knickKnacksScreenshot.6b89494a43341348271b.png",
+    "static/media/phoenixDevResume_2022.pdf": "/myReactPortfolio/static/media/phoenixDevResume_2022.96cdef87da074ea3e783.pdf",
     "static/media/logo.png": "/myReactPortfolio/static/media/logo.203e97b6712ce53161b0.png",
     "static/media/sunsetBackgroundSquare.jpg": "/myReactPortfolio/static/media/sunsetBackgroundSquare.1180d8e7cbce841671c7.jpg",
     "static/media/Developer_Tag.jpg": "/myReactPortfolio/static/media/Developer_Tag.c3f08aac8a4a4e8edd9a.jpg",
@@ -11,14 +12,13 @@
     "static/media/weatherAppScreenshot.png": "/myReactPortfolio/static/media/weatherAppScreenshot.0017a6e5daee9d9c4485.png",
     "static/media/bitcoinTrackerScreenshot.png": "/myReactPortfolio/static/media/bitcoinTrackerScreenshot.3822612482e81eceeb44.png",
     "static/media/myrecipesScreenshot.png": "/myReactPortfolio/static/media/myrecipesScreenshot.9d2e4e879d60ed607be3.png",
-    "static/media/phoenixDevResume_2022.pdf": "/myReactPortfolio/static/media/phoenixDevResume_2022.5ed330a089013e445070.pdf",
     "index.html": "/myReactPortfolio/index.html",
     "main.91d9030c.css.map": "/myReactPortfolio/static/css/main.91d9030c.css.map",
-    "main.6baefeac.js.map": "/myReactPortfolio/static/js/main.6baefeac.js.map",
+    "main.addf09e7.js.map": "/myReactPortfolio/static/js/main.addf09e7.js.map",
     "787.5e5fe948.chunk.js.map": "/myReactPortfolio/static/js/787.5e5fe948.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91d9030c.css",
-    "static/js/main.6baefeac.js"
+    "static/js/main.addf09e7.js"
   ]
 }
