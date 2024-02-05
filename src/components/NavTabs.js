@@ -20,7 +20,7 @@ const styles = {
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header id="navbar" style={styles.staticHeader}>
-        <h2 className="header main-header">Phoenix Staley - Web Developer</h2>
+        <h2 className="header main-header">Phoenix Staley - Software Developer</h2>
         <h2 className="header short-header">Phoenix Staley</h2>
         <nav className="text-right navigation">
             <ul className="nav nav-tabs">
