@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div>
       <div className="hero" alt="The word developer on a dark background surrounded by yellow angle brackets">
-        <img src={selfie} alt="Phoenix Staley in a white cardigan, wearing square glasses, with the sunset in the background" className="pineapple-shirt" />
+        <img src={selfie} alt="Phoenix Staley in a white cardigan, wearing square glasses, with the sunset in the background" className="selfie" />
         <div> </div> {/* This div helps utilize the flex-between property */}
       </div>
 
